@@ -7,7 +7,6 @@ size_t binarySearch(const std::vector<int>& v, int x)
     size_t l = 0;
     size_t h = v.size() - 1;
     size_t m, i = 0;
-    ;
 
     while (l <= h) {
         std::cout << "iter: " << ++i << '\n';
